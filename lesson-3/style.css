@@ -1,0 +1,46 @@
+/* display:inline
+display: block
+display: inline-block */
+
+.card{
+    box-shadow: 10px 10px 20px rgb(22, 22, 22);
+    width: 250px;
+    height: 350px;
+    border: 1px solid red;
+    background-color: maroon;
+}
+.card img{
+    width: 100%;
+}
+.jjj{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+h2{
+    color: red;
+}
+
+button{
+    color: red;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: blue;
+    border: none;
+    box-shadow: 10px 10px 20px maroon;
+
+}
+
+p{
+    color: red;
+}
